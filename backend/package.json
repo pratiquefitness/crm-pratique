@@ -11,7 +11,8 @@
     "prisma:migrate": "prisma migrate dev",
     "prisma:studio": "prisma studio",
     "build": "tsc", 
-    "vercel-build": "echo hello"
+    "vercel-build": "echo hello",
+    "postinstall": "prisma generate"
   },
   "keywords": [],
   "author": "",
