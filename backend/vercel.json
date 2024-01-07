@@ -1,0 +1,14 @@
+{
+    "functions": {
+      "api/**/*.ts": {
+        "runtime": "nodejs20"
+      }
+    },
+    "builds": [
+      {
+        "src": "tsconfig.json",
+        "use": "@vercel/node"
+      }
+    ]
+  }
+  
