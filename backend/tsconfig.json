@@ -15,6 +15,6 @@
     "lib": ["es2020"],
     "types": ["node"]
   },
-  "include": ["index.ts"],
+  "include": ["./api/*.ts"],
   "exclude": ["node_modules", "dist"]
 }

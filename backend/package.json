@@ -10,7 +10,8 @@
     "prisma:generate": "prisma generate",
     "prisma:migrate": "prisma migrate dev",
     "prisma:studio": "prisma studio",
-    "build": "tsc"
+    "build": "tsc", 
+    "vercel-build": "echo hello"
   },
   "keywords": [],
   "author": "",
