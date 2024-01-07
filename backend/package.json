@@ -11,7 +11,7 @@
     "prisma:migrate": "prisma migrate dev",
     "prisma:studio": "prisma studio",
     "build": "npx prisma db push && npx prisma generate && tsc",
-    "vercel-build": "echo hello",
+    "vercel-build": "echo hello && npm run start",
     "postinstall": "prisma generate"
   },
   "keywords": [],
